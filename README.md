@@ -15,8 +15,8 @@
 
 - **Author**: Adebayo Oyeleye (C4039125)
 - **Institution**: Sheffield Hallam University
-- **Supervisor**: Jade McDonald
-- **Period**: October - December 2024
+- **Supervisor**: Alice Arnold
+- **Period**: October - December 2025
 
 ### Research Question
 
