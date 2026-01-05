@@ -1,8 +1,8 @@
-# ⚽ Serverless Football Analytics System
+# ⚽ Cloud Football Analytics System
 
 ## Real-Time Processing for Nigerian Professional Football League (NPFL)
 
-[![AWS](https://img.shields.io/badge/AWS-Serverless-orange)](https://aws.amazon.com/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Terraform](https://img.shields.io/badge/Terraform-1.5+-purple)](https://www.terraform.io/)
 [![License](https://img.shields.io/badge/License-MSc_Research-green)](https://www.shu.ac.uk/)
@@ -20,7 +20,7 @@
 
 ### Research Question
 
-> "How can a serverless computing architecture be designed and implemented to process live football data at scale for real-time analytics?"
+> "How can a cloud computing architecture be designed and implemented to process live football data at scale for real-time analytics?"
 
 ### Key Achievement
 
@@ -50,7 +50,7 @@
 
 ```bash
 git clone <repository-url>
-cd football-analytics-serverless
+cd football-analytics-cloud
 
 # Configure API key
 cp config/config.env.example config/config.env
@@ -202,7 +202,7 @@ python3 scripts/demo_npfl_match.py
 ## 📂 Project Structure
 
 ```
-football-analytics-serverless/
+football-analytics-cloud/
 ├── src/
 │   ├── ingestion/              # Data ingestion scripts
 │   │   └── kinesis_producer.py
@@ -245,7 +245,7 @@ football-analytics-serverless/
 
 ### AWS Services
 
-- **AWS Lambda** - Serverless compute (Python 3.11)
+- **AWS Lambda** - Cloud compute (Python 3.11)
 - **Amazon Kinesis Data Streams** - Real-time ingestion
 - **Amazon DynamoDB** - NoSQL database
 - **Amazon S3** - Object storage
@@ -431,7 +431,7 @@ https://console.aws.amazon.com/xray/home?region=us-east-1#/service-map
 
 **Compare to EC2**: $88-$118/month (t3.medium + EBS + RDS + ALB)
 
-**Serverless Advantage**: 40-55% cost savings + zero idle costs
+**Cloud Advantage**: 40-55% cost savings + zero idle costs
 
 ---
 
@@ -608,14 +608,14 @@ This project is developed as part of an MSc Computing research thesis.
 - **Supervisor**: Jade McDonald (Sheffield Hallam University)
 - **API-Football**: Free tier API for NPFL data
 - **StatsBomb**: Open data for reference
-- **AWS**: Serverless services and documentation
+- **AWS**: Cloud services and documentation
 - **Nigerian Football Federation**: NPFL support
 
 ---
 
 ## 📖 References
 
-1. Jonas, E., et al. (2019). "Cloud Programming Simplified: A Berkeley View on Serverless Computing"
+1. Jonas, E., et al. (2019). "Cloud Programming Simplified: A Berkeley View on Cloud Computing"
 2. Vidal-Codina, F., et al. (2022). "Automatic Event Detection in Football Using Tracking Data"
 3. Merhej, C., et al. (2021). "What Happened Next? Using Deep Learning to Value Defensive Actions"
 4. AWS Well-Architected Framework: https://aws.amazon.com/architecture/well-architected/
@@ -634,6 +634,6 @@ This project is developed as part of an MSc Computing research thesis.
 | Documentation        | Week 11   | ✅ Complete |
 |                      |           |             |
 
-**Last Updated**: November 22, 2024
+**Last Updated**: November 22, 2025
 **Version**: 1.0
 **Status**: ✅ Production Ready
